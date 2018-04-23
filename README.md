@@ -1,1 +1,2 @@
-# angry_dice.github.io
+# angry-dice-game.github.io
+
