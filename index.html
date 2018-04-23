@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angry Dice</title>
+    <meta name="description" content="description">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1 id="test">Angry Dice</h1>
+
+
+<h3 id="stage">Press PLAY to start</h3>
+<div id="game-container">
+    <div id="dice-container">
+        <img class="die-img" id="die1" src="img/angry.png">
+        <img class="die-img" id ="die2" src="img/angry.png">
+    </div>
+
+    <div id="button-container">
+        <div id="hold1-play">
+            <div><button class="button" id="hold1">HOLD</button></div>
+            <div><button class="button" id="play">PLAY</button></div>
+        </div>
+        <div id="hold2-roll">
+            <div><button class="button" id="hold2">HOLD</button></div>
+            <div><button class="button" id="roll">ROLL</button></div>
+        </div>
+    </div>
+</div>
+
+<div id="instruction-container">
+    <h2>Instructions</h2>
+    <li>Complete all the stages!</li>
+    <li>Stage 1: Roll the dice until you have a<img src="img/1.png" class="inline-img" >and<img src="img/2.png" class="inline-img" ></li>
+    <li>Stage 2: Roll the dice until you have a<img src="img/angry.png" class="inline-img" >and<img src="img/4.png" class="inline-img" ></li>
+    <li>Stage 3: Roll the dice until you have a<img src="img/5.png" class="inline-img" >and<img src="img/6.png" class="inline-img"></li>
+    <li>Rolling a <img src="img/angry.png" class="inline-img" >and<img src="img/angry.png" class="inline-img" > will drop you back to Stage 1.</li>
+    <li>The <img src="img/6.png" class="inline-img" > cannot be held.</li>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
